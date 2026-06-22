@@ -6,14 +6,14 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import myImage from "../public/myImage.jpg";
 import Image from "next/image";
 import Skills from "./components/skills";
 //import TestimonialScroller from "./components/TestimonialScroller";
-import SkillsPhases from "./components/SkillsPhases";
 import ProjectsSection from "./components/ProjectsSection";
-
-
+import Education from "./components/Education";
+import Internship from "./components/Internship";
+import Certificates from "./components/Certificates";
+import LanguagesHobbies from "./components/LanguagesHobbies";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -48,28 +48,33 @@ export default function Home() {
           </nav>
 
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:mt-0 md:h-96 md:w-96">
-          <Image src={myImage} fill={true} style={{ objectFit: 'cover' }} alt="myImage" />
+          <Image
+  src="/myImage.jpg"
+  fill
+  style={{ objectFit: "cover" }}
+  alt="Laxmi Biradar"
+/>
 
           </div>
 
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Nithya M S
+              Laxmi Biradar
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Full stack Developer
+              MTech(CSE) Student |AI/ML Engineer | Data Analyst 
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Full-stack developer and designer, passionate about creating innovative solutions. Let&apos;s connect and explore opportunities!
+              Computer Science and Engineering student with a strong foundation in Artificial Intelligence, Machine Learning, and Data Analytics. Passionate about developing innovative solutions, analyzing complex data, and leveraging technology to solve real-world problems. Let&apos;s connect and explore opportunities!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a target="_blank" href="https://github.com/Nithyams17" rel="noreferrer" className="hover:scale-125 hover:rotate-12 transition-all duration-300 cursor-pointer hover:text-black dark:hover:text-white hover:shadow-lg hover:shadow-gray-500/50">
+              <a target="_blank" href="https://github.com/LaxmiBiradar0829" rel="noreferrer" className="hover:scale-125 hover:rotate-12 transition-all duration-300 cursor-pointer hover:text-black dark:hover:text-white hover:shadow-lg hover:shadow-gray-500/50">
                 <AiFillGithub />
               </a>
-              <a target="_blank" href="https://www.linkedin.com/in/nithya-m-s-328893319" rel="noreferrer" className="hover:scale-125 hover:rotate-12 transition-all duration-300 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 hover:shadow-lg hover:shadow-blue-500/50">
+              <a target="_blank" href="https://www.linkedin.com/in/laxmi-biradar-32817024b" rel="noreferrer" className="hover:scale-125 hover:rotate-12 transition-all duration-300 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 hover:shadow-lg hover:shadow-blue-500/50">
                 <AiFillLinkedin />
               </a>
-              <a target="_blank" href="mailto:nithyagowdaa1727@gmail.com" rel="noreferrer" className="hover:scale-125 hover:rotate-12 transition-all duration-300 cursor-pointer hover:text-red-500 dark:hover:text-red-400 hover:shadow-lg hover:shadow-red-500/50">
+              <a target="_blank" href="mailto:laxmirb9901@gmail.com" rel="noreferrer" className="hover:scale-125 hover:rotate-12 transition-all duration-300 cursor-pointer hover:text-red-500 dark:hover:text-red-400 hover:shadow-lg hover:shadow-red-500/50">
                 <AiFillMail />
               </a>
             </div>
@@ -81,17 +86,19 @@ export default function Home() {
         <Skills />
 
         <ProjectsSection />
-
-        <SkillsPhases />
+<Education />
+<Internship />
+<Certificates />
+<LanguagesHobbies />
       </main>
 
       <footer className="text-center">
         <div className="border-t border-gray-300 py-2">
           <p className="text-gray-600">
-            Phone: <a href="tel:+91 8431874154">+91 8431874154</a>
+            Phone: <a href="tel:+91 9148644803">+91 9148644803</a>
           </p>
           <p className="text-gray-600">
-            Email: <a href="mailto:nithyagowdaa1727@gmail.com">nithyagowdaa1727@gmail.com</a>
+            Email: <a href="mailto:laxmirb9901@gmail.com">laxmirb9901@gmail.com</a>
           </p>
         </div>
       </footer>
