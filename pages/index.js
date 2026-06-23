@@ -3,6 +3,7 @@ import {
   AiFillGithub,
   AiFillLinkedin,
   AiFillMail,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -62,7 +63,7 @@ export default function Home() {
               Laxmi Biradar
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              MTech(CSE) Student |AI/ML Engineer | Data Analyst 
+              MTech(CSE) Student 
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Computer Science and Engineering student with a strong foundation in Artificial Intelligence, Machine Learning, and Data Analytics. Passionate about developing innovative solutions, analyzing complex data, and leveraging technology to solve real-world problems. Let&apos;s connect and explore opportunities!
@@ -77,6 +78,14 @@ export default function Home() {
               <a target="_blank" href="mailto:laxmirb9901@gmail.com" rel="noreferrer" className="hover:scale-125 hover:rotate-12 transition-all duration-300 cursor-pointer hover:text-red-500 dark:hover:text-red-400 hover:shadow-lg hover:shadow-red-500/50">
                 <AiFillMail />
               </a>
+              <a
+  target="_blank"
+  href="https://youtube.com/@laxmibiradar4587"
+  rel="noreferrer"
+  className="hover:scale-125 hover:rotate-12 transition-all duration-300 cursor-pointer hover:text-red-600"
+>
+  <AiFillYoutube />
+</a>
             </div>
 
 
